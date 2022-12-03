@@ -1,0 +1,38 @@
+:root{
+    --primary-color:#ffff;
+    --secondary-color:#212121;
+}
+
+.dark-mode{
+    --primary-color:#212121;
+    --secondary-color:#ffff;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    transition: all 0.2s ease-in-out;
+}
+
+p{
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.button{
+    height: 50px;
+    width: 200px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    border: 2px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+#icon{
+    font-size: 20px;
+}

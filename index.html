@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>Maharga Rabbani</title>
+</head>
+<body>
+    <p>HELLO</p>
+    <button class="button" id="button"><i class="fas fa-moon" uid></i>
+    </button>
+    <script>
+        const button = document.getElementById("button")
+        const icon = document.getElementById("icon")
+
+        button.onclick = function(){
+            document.body.classList.toggle("dark-mode")
+            if(document.body.classList.contains(dark-mode)){
+                icon.className = "fas fa-sun"
+            }else{
+                icon.className =  "fas fa-moon"
+            }
+
+        }
+    </script>
+</body>
+</html>
